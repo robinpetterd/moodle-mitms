@@ -1,0 +1,12 @@
+<h1>Aggregation method</h1>
+
+<p>
+If the aggregation method is set to All then each of the roles setup will have to mark the learner as complete.
+</p>
+<p>
+If the aggregation method is set to Any then only one of the roles setup will have to mark the learner as complete.
+</p>
+<?php
+require_once($CFG->dirroot . '/local/mitms.php');
+print mitms_captivate_popup('Video walkthrough of setting up course completion conditions', 'setting up course completion conditions');
+?>

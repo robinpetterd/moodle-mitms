@@ -1,0 +1,16 @@
+<h1>Notify third-party about wait-listed sessions</h1>
+
+<p>If you want the third-party to be emailed when a user signs up for a
+  wait-listed session, enable this option.</p>
+
+<p>Otherwise, the third-party will only be notified when a user signs up (or
+  cancels) for a scheduled session.</p>
+
+<p>This is useful in the case where an external trainer wants to wait until
+  there is a certain number of interested users before offering a
+  session.</p>
+
+<?php
+require_once($CFG->dirroot . '/local/mitms.php');
+print mitms_captivate_popup('Video walkthrough of setting up a face to face activity', 'setting up a face to face activity');
+?>
